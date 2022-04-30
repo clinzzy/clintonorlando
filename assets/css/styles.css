@@ -1,0 +1,38 @@
+body {
+  max-width: 100%;
+  font-family: Quicksand, sans-serif;
+  --bs-primary: #1c3dca;
+  --bs-primary-rgb: 28,61,202;
+  --bs-info: #02aaff;
+  --bs-info-rgb: 2,170,255;
+  --bs-body-color: var(--bs-white);
+  --bs-body-bg: var(--bs-dark);
+  --bs-body-font-weight: 300;
+}
+
+.container {
+  height: 100%;
+  min-width: 100%;
+}
+
+.text-badge {
+  padding: .1rem .4rem;
+  border-radius: 5px;
+  color: var(--bs-body-color);
+}
+
+.banner {
+  text-align: center;
+  background: #ad8bab;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+}
+
+.projects {
+  --bs-gutter-y: 1.5rem;
+}
+
+.contact-div {
+  margin-top: 5%;
+}
+
